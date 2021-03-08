@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "492904780821",
+    "project_id": "diary-6e945",
+    "storage_bucket": "diary-6e945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492904780821:android:8c51eb9f8b72faca792a1c",
+        "android_client_info": {
+          "package_name": "de.ericechtermeyer.diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492904780821-ve0ljddkdpvou1o513g512c85qt2373b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUNhqsHyhmXb63AG_f-_pgqp1FpjCr4ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492904780821-ve0ljddkdpvou1o513g512c85qt2373b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

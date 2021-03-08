@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashy_1"
+    tools:context=".onboarding.screens.FirstScreen">
+
+    <ImageView
+        android:id="@+id/thirdScreenIV"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/splash_img_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/thirdScreenTV1"
+        style="@style/SplashBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello\nBeauty!"
+        app:layout_constraintBottom_toTopOf="@+id/thirdScreenTV2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/thirdScreenTV2"
+        style="@style/SplashSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="- Welcome to\ndaily notes -"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/thirdScreenTV1"
+        app:layout_constraintStart_toStartOf="@+id/thirdScreenTV1" />
+
+    <TextView
+        style="@style/splashButton"
+        android:id="@+id/firstScreenNextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray2">#333333</color>
+
+    <color name="date_background1">#EDC854</color>
+    <color name="date_background2">#EDCB5A</color>
+
+    <color name="orange">#EDE89A</color>
+    <color name="orange2">#EDBF40</color>
+</resources>
